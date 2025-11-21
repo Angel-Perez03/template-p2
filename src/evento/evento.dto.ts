@@ -14,7 +14,7 @@ export class EventoDto {
   @IsOptional()
   descripcion?: string;
 
-  // Se envía como string ISO, se parsea a Date en el servicio
+  // Se envía como string 
   @IsString()
   @IsOptional()
   fecha?: string;
